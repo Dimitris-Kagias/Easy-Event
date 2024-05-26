@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessInformationActivity">
+
+    <TextView
+        android:id="@+id/txtBusinessName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Name"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtBusinessType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Type"
+        android:textSize="18sp"
+        android:layout_below="@id/txtBusinessName"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtEventTypes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Types"
+        android:textSize="18sp"
+        android:layout_below="@id/txtBusinessType"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="18sp"
+        android:layout_below="@id/txtEventTypes"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtContactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Info"
+        android:textSize="18sp"
+        android:layout_below="@id/txtLocation"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtCredential"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credential"
+        android:textSize="18sp"
+        android:layout_below="@id/txtContactInfo"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/txtCredential"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/button_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Επιβεβαίωση"
+            android:onClick="confirmBusiness" />
+
+        <Button
+            android:id="@+id/button_reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Απόρριψη"
+            android:layout_marginStart="16dp"
+            android:onClick="rejectBusiness" />
+    </LinearLayout>
+
+</RelativeLayout>

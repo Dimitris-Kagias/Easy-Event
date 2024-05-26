@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">EasyEvent</string>
+    <string name="welcome_message">Καλώς ήρθατε στην εφαρμογή EasyEvent!</string>
+    <string name="create_event">Δημιουργία Εκδήλωσης</string>
+    <string name="view_offers">Προσφορές</string>
+    <string name="view_packages">Πακέτα</string>
+    <string name="select_event_type">Επιλέξτε Είδος Εκδήλωσης</string>
+    <string name="enter_event_details">Εισάγετε τα Στοιχεία της Εκδήλωσης</string>
+    <string name="date_time">Ημερομηνία και Ώρα</string>
+    <string name="location">Τοποθεσία</string>
+    <string name="error_message">Εισάγετε όλα τα απαραίτητα χαρακτηριστικά</string>
+    <string name="ok">OK</string>
+    <string-array name="event_types_array">
+        <item>Γάμος</item>
+        <item>Βάπτιση</item>
+        <item>Πάρτι</item>
+        <item>Συνέδριο</item>
+    </string-array>
+    <string name="business_type_message">Αυτή είναι η BusinessTypeActivity</string>
+    <string name="message_activity">Αυτό είναι το μήνυμα</string>
+    <string-array name="time_array">
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>1:00</item>
+        <item>1:30</item>
+        <item>2:00</item>
+        <item>2:30</item>
+        <item>3:00</item>
+        <item>3:30</item>
+        <item>4:00</item>
+        <item>4:30</item>
+        <item>5:00</item>
+        <item>5:30</item>
+        <item>6:00</item>
+        <item>6:30</item>
+        <item>7:00</item>
+        <item>7:30</item>
+        <item>8:00</item>
+        <item>8:30</item>
+        <item>9:00</item>
+        <item>9:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+    </string-array>
+    <string-array name="am_pm_array">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+</resources>

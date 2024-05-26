@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessHomePageActivity">
+
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Καλώς ήρθατε στην εφαρμογή EasyEvent!"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_create_offer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Δημιουργία Προσφοράς"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView_welcome"
+        android:layout_marginTop="16dp"
+        android:onClick="chooseCreateOffer"/>
+
+    <Button
+        android:id="@+id/button_create_package"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Δημιουργία Πακέτου"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_create_offer"
+        android:layout_marginTop="16dp"
+        android:onClick="chooseCreatePackage"/>
+</RelativeLayout>

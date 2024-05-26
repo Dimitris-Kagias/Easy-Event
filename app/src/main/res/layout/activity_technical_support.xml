@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editText_issue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Περιγράψτε το πρόβλημά σας"
+        android:inputType="textMultiLine"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_submit_issue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Υποβολή"
+        android:onClick="submitIssue"/>
+</LinearLayout>

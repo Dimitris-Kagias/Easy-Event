@@ -1,0 +1,193 @@
+[
+  {
+    "username": "business1",
+    "name": "Ανθοπωλείο Άνθη",
+    "businessType": "Ανθοπωλείο",
+    "eventTypes": ["Γάμος", "Βάπτιση", "Συνέδριο"],
+    "location": "Agrinio",
+    "availableDates": ["2024-05-20", "2024-05-23", "2024-05-22", "2024-05-21", "2024-05-24", "2024-05-25"],
+    "availableTimes": ["06:00 PM", "07:00 PM", "08:00 PM", "09:00 PM", "10:00 PM", "11:00 PM", "12:00 PM"],
+    "contactInfo": "louloudi@gmail.com-6900000000",
+    "state": true,
+    "credential": "",
+    "reviews": [
+      {
+        "username": "user1",
+        "rating": 4,
+        "comment": "Great service!"
+      },
+      {
+        "username": "user2",
+        "rating": 5,
+        "comment": "Beautiful flowers!"
+      }
+    ],
+    "services": [
+      "Flower arrangements",
+      "Wedding bouquets",
+      "Event decoration"
+    ]
+  },
+  {
+    "username": "catering",
+    "name": "Catering Γεύσεις",
+    "businessType": "Catering",
+    "eventTypes": ["Γάμος", "Βάπτιση"],
+    "location": "Agrinio",
+    "availableDates": ["2024-05-20", "2024-05-21", "2024-05-23", "2024-05-22", "2024-05-24", "2024-05-25"],
+    "availableTimes": ["02:00 PM", "04:00 PM", "06:00 PM", "07:00 PM", "08:00 PM", "09:00 PM", "10:00 PM", "11:00 PM", "12:00 PM"],
+    "contactInfo": "catering@gmail.com-6911111111",
+    "state": true,
+    "credential": "",
+    "reviews": [
+      {
+        "username": "user3",
+        "rating": 3,
+        "comment": "Decent food."
+      },
+      {
+        "username": "user4",
+        "rating": 4,
+        "comment": "Professional service!"
+      }
+    ],
+    "services": [
+      "Catering for weddings",
+      "Buffet service",
+      "Event planning"
+    ]
+  },
+  {
+    "username": "lampero",
+    "name": "Κέντρο Δεξιώσεων Λαμπερό",
+    "businessType": "Κέντρο Δεξιώσεων",
+    "eventTypes": [
+      "Γάμος",
+      "Βάπτιση"
+    ],
+    "location": "Agrinio",
+    "availableDates": [
+      "2024-05-20",
+      "2024-05-21",
+      "2024-05-22",
+      "2024-05-23",
+      "2024-05-24",
+      "2024-05-25"
+    ],
+    "availableTimes": [
+      "06:00 PM",
+      "08:00 PM",
+      "06:00 PM",
+      "07:00 PM",
+      "08:00 PM",
+      "09:00 PM",
+      "10:00 PM",
+      "11:00 PM",
+      "12:00 PM"
+    ],
+    "contactInfo": "lampeis_mpampi_mou@gmail.com-6933333333",
+    "state": true,
+    "credential": "",
+    "reviews": [
+      {
+        "username": "user5",
+        "rating": 5,
+        "comment": "Amazing venue!"
+      },
+      {
+        "username": "user6",
+        "rating": 4,
+        "comment": "Good service."
+      }
+    ],
+    "services": [
+      "Venue rental",
+      "Event planning"
+    ]
+  },
+  {
+    "username": "babyname",
+    "name": "Βαπτιστικό Κατάστημα",
+    "businessType": "Κατάστημα",
+    "eventTypes": ["Βάπτιση"],
+    "location": "Agrinio",
+    "availableDates": ["2024-05-20", "2024-05-21", "2024-05-22","2024-05-23", "2024-05-24", "2024-05-25"],
+    "availableTimes": ["06:00 PM", "08:00 PM", "06:00 PM", "07:00 PM", "08:00 PM", "09:00 PM", "10:00 PM", "11:00 PM", "12:00 PM"],
+    "contactInfo": "babyname@gmail.com-6922222222",
+    "state": true,
+    "credential": "",
+    "reviews": [
+      {
+        "username": "user5",
+        "rating": 5,
+        "comment": "Amazing venue!"
+      },
+      {
+        "username": "user6",
+        "rating": 4,
+        "comment": "Good service."
+      }
+    ],
+    "services": [
+      "Venue rental",
+      "Event planning"
+    ]
+  },
+  {
+    "username": "centro",
+    "name": "Βαπτιστικό Κέντρο",
+    "businessType": "Κατάστημα",
+    "eventTypes": ["Βάπτιση"],
+    "location": "Agrinio",
+    "availableDates": ["2024-05-20", "2024-05-21", "2024-05-22","2024-05-23", "2024-05-24", "2024-05-25"],
+    "availableTimes": ["06:00 PM", "08:00 PM", "06:00 PM", "07:00 PM", "08:00 PM", "09:00 PM", "10:00 PM", "11:00 PM", "12:00 PM"],
+    "contactInfo": "babyname@gmail.com-6922222222",
+    "state": false,
+    "credential": "na xa na soy dina",
+    "reviews": [
+      {
+        "username": "user5",
+        "rating": 5,
+        "comment": "Amazing venue!"
+      },
+      {
+        "username": "user6",
+        "rating": 4,
+        "comment": "Good service."
+      }
+    ],
+    "services": [
+      "Venue rental",
+      "Event planning"
+    ]
+  },
+  {
+    "username": "fromevery1",
+    "name": "Απόλων",
+    "businessType": "Κατάστημα",
+    "eventTypes": ["Βάπτιση"],
+    "location": "Agrinio",
+    "availableDates": ["2024-05-20", "2024-05-21", "2024-05-22","2024-05-23", "2024-05-24", "2024-05-25"],
+    "availableTimes": ["06:00 PM", "08:00 PM", "06:00 PM", "07:00 PM", "08:00 PM", "09:00 PM", "10:00 PM", "11:00 PM", "12:00 PM"],
+    "contactInfo": "babyname@gmail.com-6922222222",
+    "state": false,
+    "credential": "credential.pdf",
+    "reviews": [
+      {
+        "username": "user5",
+        "rating": 5,
+        "comment": "Amazing venue!"
+      },
+      {
+        "username": "user6",
+        "rating": 4,
+        "comment": "Good service."
+      }
+    ],
+    "services": [
+      "Venue rental",
+      "Event planning"
+    ]
+  }
+
+]

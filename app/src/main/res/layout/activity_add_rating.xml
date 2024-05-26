@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddRatingActivity">
+
+    <TextView
+        android:id="@+id/txtStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Αστέρια"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <Spinner
+        android:id="@+id/spinnerStars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtStars"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/edtReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Σχόλιο"
+        android:layout_below="@id/spinnerStars"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Υποβολή"
+        android:layout_below="@id/edtReview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>
